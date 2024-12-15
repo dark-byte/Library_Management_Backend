@@ -11,11 +11,14 @@ The Library Management System is a web application designed to manage library op
 ### User Management
 - **Signup**: Users can create accounts as Authors or Readers.
 - **Login**: Users can log in to the system and receive a JWT token for session management.
+- **Update and Deletion**: Users can update their profile details like name, email, etc as well as delete their account.
 - **Roles**: Authors can create books, while Readers can borrow and return books.
+- **Validate Session**: Users can validate whether their token is still valid or expired (Validity - 15 days).
 
 ### Book Management
 - **Add Books**: Authors can add books to the system.
-- **List Books**: Readers can view available books.
+- **Update and Deletion**: Authors can update a book as well as delete them.
+- **List Books**: Readers can view all available books or books added by an author.
 
 ### Borrowing and Returning
 - **Borrow Books**: Readers can borrow books.
